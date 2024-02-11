@@ -6,7 +6,5 @@ ADD host.patch /app
 RUN patch /app/aircon/__main__.py /app/host.patch
 
 # ADD options.json /config/
-ADD wrapper.sh /
-RUN chmod +x /wrapper.sh
 
-CMD [ "/wrapper.sh" ]
+CMD [ "/run.sh" ]
