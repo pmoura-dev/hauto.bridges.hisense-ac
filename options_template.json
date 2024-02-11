@@ -1,0 +1,17 @@
+{
+    "app": [
+        {
+            "username": "<app username>",
+            "password": "<app password>",
+            "code": "<app code>"
+        }
+    ],
+    "log_level": "INFO",
+    "mqtt_host": "<mqtt-host>",
+    "mqtt_port": 1883,
+    "mqtt_user": "<mqtt username>",
+    "mqtt_pass": "<mqtt password>",
+    "port": 8888,
+    "local_ip": "<ip address of AirCon server>"
+}
+  
