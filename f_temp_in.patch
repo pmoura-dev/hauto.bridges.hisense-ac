@@ -1,0 +1,5 @@
+539a540,541
+>     env_temp = self.get_env_temp()
+>     self.update_property('f_temp_in', env_temp)
+540a543
+> 
