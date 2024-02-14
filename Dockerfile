@@ -4,7 +4,7 @@ ENV OPTIONS_FILE=/config/options.json
 
 ADD host.patch full_status.patch /app/
 RUN patch /app/aircon/__main__.py /app/host.patch
-RUN patch /app/aircon/aircon.py /app/full_status.patch
+RUN patch /app/aircon/query_handlers.py /app/full_status.patch
 
 # ADD options.json /config/
 
