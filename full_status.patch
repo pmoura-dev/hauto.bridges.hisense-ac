@@ -1,0 +1,9 @@
+3a4
+> import json
+261d261
+< 
+540a541
+>     self._notify_listeners('all', json.dumps(self.get_all_properties().to_dict()))
+541a543,544
+> 
+> 
