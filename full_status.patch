@@ -1,2 +1,3 @@
-90a91
->       device._notify_listeners('all', json.dumps(device.get_all_properties().to_dict()))
+90a91,92
+>       if name in ['f_temp_in', 't_power', 't_work_mode', 't_temp']:
+>         device._notify_listeners('all', json.dumps(device.get_all_properties().to_dict()))
